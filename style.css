@@ -1,4 +1,4 @@
-               @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
         html {
             scroll-behavior: smooth;
         }
@@ -320,6 +320,9 @@
             .about-content {
                 margin: 5rem 100px 1rem;
             }
+            .skills-image img {
+                margin-bottom: 2rem;
+            }
             .skills-content {
                 margin-top: 80px;
             }
@@ -331,7 +334,7 @@
                 margin: 20px 80px 20px 0;
             }
             .portfolio-content {
-                margin: 7rem 0 1rem 15em;
+                margin: 7rem 0 1rem 13vw;
             }
             .portfolio-container p {
                 font-size: 1.3rem;
@@ -341,7 +344,7 @@
                 margin: 30px 0px 30px 150px;
             }
             .cv-content {
-                margin: 9em 4em 0 15rem;
+                margin: 8vw 4em 0 15vw;
             }
             .cv-content p {
                 font-size: 1.5rem;
@@ -611,3 +614,5 @@
                 grid-row: 1;
             }
         }
+
+
