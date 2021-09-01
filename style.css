@@ -235,6 +235,10 @@
             width: 70px;
         }
         
+        .cv-content img:hover {
+            width: 75px;
+        }
+        
         footer {
             background-color: #273036;
             display: flex;
