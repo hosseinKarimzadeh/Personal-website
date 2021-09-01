@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+               @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
         html {
             scroll-behavior: smooth;
         }
@@ -218,11 +218,11 @@
         
         .cv-image img {
             width: 25vw;
-            margin: 30px 0 30px 100px;
+            margin: 30px 0 30px 150px;
         }
         
         .cv-content {
-            margin: 6em 4em 0 10rem;
+            margin: 6em 4em 0 8rem;
             text-align: center;
         }
         
@@ -298,6 +298,54 @@
         
         .github a:hover {
             color: #000;
+        }
+        
+        @media screen and (min-width:1500px) {
+            .my-image img {
+                width: 25vw;
+                margin: 50px 0;
+            }
+            .my-info {
+                font-size: 2rem;
+                margin: 18rem 16.5rem 0 10.5rem;
+                line-height: 3.5rem;
+            }
+            .title {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
+            .about-me p {
+                font-size: 1.4rem;
+            }
+            .about-content {
+                margin: 5rem 100px 1rem;
+            }
+            .skills-content {
+                margin-top: 80px;
+            }
+            .skills-content p {
+                font-size: 1.3rem;
+            }
+            .portfolio-image img {
+                width: 33vw;
+                margin: 20px 80px 20px 0;
+            }
+            .portfolio-content {
+                margin: 7rem 0 1rem 15em;
+            }
+            .portfolio-container p {
+                font-size: 1.3rem;
+            }
+            .cv-image img {
+                width: 28vw;
+                margin: 30px 0px 30px 150px;
+            }
+            .cv-content {
+                margin: 9em 4em 0 15rem;
+            }
+            .cv-content p {
+                font-size: 1.5rem;
+            }
         }
         
         @media screen and (max-width:1200px) {
